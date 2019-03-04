@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="472.0">sourcecode.Baza</node>
+    <node x="38.0" y="192.0">sourcecode.Faktura</node>
+    <node x="10.0625" y="685.0">sourcecode.ObslugaFaktury</node>
+    <node x="72.75" y="1132.0">sourcecode.Main</node>
+    <node x="74.25" y="964.0">sourcecode.Interfejs</node>
+    <node x="64.5" y="0.0">sourcecode.Element</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sourcecode.Faktura" target="sourcecode.Element">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="sourcecode.ObslugaFaktury" target="sourcecode.Baza">
+      <point x="-41.125" y="-114.5" />
+      <point x="133.4375" y="660.0" />
+      <point x="158.25" y="660.0" />
+      <point x="52.75" y="81.5" />
+    </edge>
+    <edge source="sourcecode.Baza" target="sourcecode.Faktura">
+      <point x="52.75" y="-81.5" />
+      <point x="158.25" y="447.0" />
+      <point x="139.25" y="447.0" />
+      <point x="-33.75" y="115.0" />
+    </edge>
+    <edge source="sourcecode.Interfejs" target="sourcecode.ObslugaFaktury">
+      <point x="-41.5" y="-59.0" />
+      <point x="115.75" y="939.0" />
+      <point x="92.3125" y="939.0" />
+      <point x="-82.25" y="114.5" />
+    </edge>
+    <edge source="sourcecode.ObslugaFaktury" target="sourcecode.Faktura">
+      <point x="41.125" y="-114.5" />
+      <point x="215.6875" y="660.0" />
+      <point x="221.5" y="660.0" />
+      <point x="221.5" y="447.0" />
+      <point x="206.75" y="447.0" />
+      <point x="33.75" y="115.0" />
+    </edge>
+    <edge source="sourcecode.Main" target="sourcecode.Interfejs">
+      <point x="42.25" y="-25.5" />
+      <point x="41.5" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.151509922346851" x="266.5858175382921" y="621.3924045585823" />
+  <SelectedNodes>
+    <node>sourcecode.Baza</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
